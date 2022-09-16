@@ -1,14 +1,46 @@
+@import url(destaques.css);
+@import url(populares.css);
+@import url(menu.css);
+
+:root {
+    --fundo:#f1f1f1;
+    --cor-branco-alternativo:#fdfdfd;
+    --cor-preto-texto: #333333;
+    --cor-texto-claro: #808080;
+    --cor-divisao: #dcdcdc;
+    --cor-click-menu: #0073e6;
+}
+
 .app {
-    background: #f1f1f1;
+    width: 100%;
+    background: var(--fundo);
     display: grid;  
     font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+     "cabecalho"
+     "conteudo"
+     "rodape";
+     grid-template-columns: auto;
+     grid-template-rows: 50px auto auto;
+
 }
 
 .cabecalho {
+    align-items: center;
+    display: flex;
+    grid-area: cabecalho;
+    padding: 0 2rem;
 }
  
 .conteudo {
+    grid-area: conteudo;
+    padding: 0 2rem;
 }
 
 .rodape {
+    background-color: var(--cor-branco-alternativo);
+    color: var(--cor-preto-texto);
+    grid-area: rodape;
+    padding: 1rem;
+    text-align: center;
 }

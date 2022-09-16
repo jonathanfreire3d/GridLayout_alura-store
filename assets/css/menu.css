@@ -1,0 +1,7 @@
+.menu__link {
+    color: var(--cor-preto-texto);
+    padding: 0.5rem 1rem;
+}
+.menu__link:hover,.menu__link.ativo {
+    border-bottom: 2px solid var(--cor-click-menu);
+}
