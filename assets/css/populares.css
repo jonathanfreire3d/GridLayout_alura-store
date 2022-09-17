@@ -14,10 +14,10 @@
     grid-template-areas: 
         "card-imagem"
         "card-corpo";
-    grid-template-rows: 173px auto;
+     /*grid-template-rows: 173px auto;*/
     grid-template-columns: 100%;
-    width: calc( 20% - 1rem);
-    margin-right: 1rem;
+    /*width: calc( 20% - 1rem);*/
+
 }
 .populares__card:last-child {
     /* :last-child vai no ultimo car e remove a margem*/

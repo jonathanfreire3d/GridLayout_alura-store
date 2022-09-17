@@ -1,6 +1,7 @@
 @import url(destaques.css);
 @import url(populares.css);
 @import url(menu.css);
+@import url(responsivo.css);
 
 :root {
     --fundo:#f1f1f1;
